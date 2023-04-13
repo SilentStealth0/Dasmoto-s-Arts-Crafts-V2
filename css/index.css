@@ -7,7 +7,9 @@ header {
   display: block;
   margin-top: -63px;
   margin-bottom: -60px;
+  text-align: right;
 }
+
 
 .navigation li a{
   color: black;
@@ -18,10 +20,11 @@ header {
   display: inline-block;
   text-align: center;
   cursor: pointer;
+  margin-left: 100px;
 }
 
 .navigation{
-  text-align: center;
+  text-align: left;
 }
 
 nav{

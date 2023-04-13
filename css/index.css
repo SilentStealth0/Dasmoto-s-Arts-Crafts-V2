@@ -1,0 +1,14 @@
+header {
+  background-image: url("../img/img1.jpeg");
+  text-align: center;
+  color: khaki;
+  font-family: 'dosis', sans-serif;
+  font-size: xxx-large;
+  display: block;
+  margin-top: -63px;
+}
+
+.navigation li{
+  display: inline;
+  color: black;
+}

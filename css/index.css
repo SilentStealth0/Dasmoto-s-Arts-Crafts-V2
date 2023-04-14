@@ -8,7 +8,7 @@ header {
   margin-bottom: -60px;
   text-align: right;
 }
-
+/* TODO: Figure out how to make the nav buttons look better*/
 .navigation li a{
   color: white;
   text-decoration: none;
@@ -44,19 +44,23 @@ nav{
 
 .brush_nav :hover{
   border: 2px solid mediumspringgreen;
-  background-color: white;
+  background-color: #a3fdd9;
   color: black;
   border-radius: 5px;
 }
 .frame_nav :hover{
   border: 2px solid lightcoral;
-  background-color: white;
+  background-color: #f3abab;
   color: black;
   border-radius: 5px;
 }
 .paint_nav :hover{
   border: 2px solid skyblue;
-  background-color: white;
+  background-color: #b7d8ef;
   color: black;
   border-radius: 5px;
+}
+
+.brush_sec p{
+  display: inline-block;
 }

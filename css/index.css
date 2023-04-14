@@ -10,10 +10,11 @@ header {
   text-align: right;
 }
 
-
 .navigation li a{
-  color: black;
+  color: white;
   text-decoration: none;
+  font-size: larger;
+
 }
 
 .navigation li{
@@ -21,13 +22,25 @@ header {
   text-align: center;
   cursor: pointer;
   margin-left: 100px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .navigation{
-  text-align: left;
+  text-align: center;
 }
 
 nav{
   border-bottom: 1px solid lightgray;
   border-top: 1px solid lightgray;
+}
+
+.brush_nav{
+  background-color: mediumspringgreen;
+}
+.frame_nav{
+  background-color: lightcoral;
+}
+.paint_nav{
+  background-color: skyblue;
 }

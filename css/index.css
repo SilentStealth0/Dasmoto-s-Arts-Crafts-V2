@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 header {
   background-image: url("../img/img1.jpeg");
   color: khaki;
@@ -13,6 +16,7 @@ header {
   color: white;
   text-decoration: none;
   font-size: larger;
+
 }
 
 .navigation li{
@@ -21,6 +25,8 @@ header {
   cursor: pointer;
   margin-left: 100px;
   border-radius: 5px;
+  /*height: 25px;
+  width: 75px;*/
 }
 
 .navigation{

@@ -11,22 +11,22 @@ header {
   margin-bottom: -60px;
   text-align: right;
 }
-/* TODO: Figure out how to make the nav buttons look better*/
+
 .navigation li a{
   color: white;
   text-decoration: none;
   font-size: larger;
 
 }
-
+/*TODO: Change Height and Width*/
 .navigation li{
   display: inline-block;
   text-align: center;
   cursor: pointer;
   margin-left: 100px;
   border-radius: 5px;
-  /*height: 25px;
-  width: 75px;*/
+  height: 25px;
+  width: 75px;
 }
 
 .navigation{
@@ -36,6 +36,7 @@ header {
 nav{
   border-bottom: 1px solid lightgray;
   border-top: 1px solid lightgray;
+  color: white;
 }
 
 .brush_nav{
@@ -48,23 +49,26 @@ nav{
   background-color: skyblue;
 }
 
-.brush_nav :hover{
+.navigation li a:hover{
+  color: black;
+}
+
+.brush_nav:hover{
   border: 2px solid mediumspringgreen;
   background-color: #a3fdd9;
   color: black;
   border-radius: 5px;
 }
-.frame_nav :hover{
+.frame_nav:hover{
   border: 2px solid lightcoral;
   background-color: #f3abab;
   color: black;
   border-radius: 5px;
 }
-.paint_nav :hover{
+.paint_nav:hover{
   border: 2px solid skyblue;
   background-color: #b7d8ef;
   color: black;
-  border-radius: 5px;
 }
 
 .brush_sec p{

@@ -62,16 +62,31 @@ nav{
   color: black;
   border-radius: 5px;
 }
+
+.brush_nav:active{
+  border: 2px solid mediumspringgreen;
+  background-color: #a0eccc;
+}
 .frame_nav:hover{
   border: 2px solid lightcoral;
   background-color: #f3abab;
   color: black;
   border-radius: 5px;
 }
+
+.frame_nav:active{
+  border: 2px solid lightcoral;
+  background-color: #d39d9d;
+}
 .paint_nav:hover{
   border: 2px solid skyblue;
   background-color: #b7d8ef;
   color: black;
+}
+
+.paint_nav:active{
+  border: 2px solid skyblue;
+  background-color: #9bb8cb;
 }
 
 .brush_sec p{

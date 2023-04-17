@@ -91,4 +91,7 @@ nav{
 
 .brush_sec p{
   display: inline-block;
+  height: 100px;
+  width: 200px;
 }
+

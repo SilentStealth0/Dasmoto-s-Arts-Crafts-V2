@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 html{
   scroll-behavior: smooth;
   background-color: #f1ede2;
@@ -89,9 +92,16 @@ nav{
   background-color: #9bb8cb;
 }
 
+.brush_sec{
+  box-sizing: border-box;
+}
 .brush_sec p{
-  display: inline-block;
-  height: 100px;
-  width: 200px;
+  width: 400px;
+  text-align: center;
+  display: block;
 }
 
+.brush_sec img{
+  position: relative;
+  left: 800px;
+}

@@ -26,8 +26,10 @@ header {
   cursor: pointer;
   margin-left: 100px;
   border-radius: 5px;
-  height: 25px;
-  width: 75px;
+  width: 110px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 120%;
 }
 
 .navigation{

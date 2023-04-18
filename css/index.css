@@ -1,10 +1,8 @@
-*{
-  box-sizing: border-box;
-}
 html{
   scroll-behavior: smooth;
   background-color: #f1ede2;
 }
+
 header {
   background-image: url("../img/img1.jpeg");
   color: khaki;
@@ -92,16 +90,4 @@ nav{
   background-color: #9bb8cb;
 }
 
-.brush_sec{
-  box-sizing: border-box;
-}
-.brush_sec p{
-  width: 400px;
-  text-align: center;
-  display: block;
-}
 
-.brush_sec img{
-  position: relative;
-  left: 800px;
-}

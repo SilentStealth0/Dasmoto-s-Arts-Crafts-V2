@@ -90,4 +90,19 @@ nav{
   background-color: #9bb8cb;
 }
 
+.brush_sec{
+  border: 4px outset mediumspringgreen;
+  padding: 8px;
+  margin-bottom: 8px;
+}
 
+.frame_sec{
+  border: 4px outset lightcoral;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.paint_sec{
+  border: 4px outset skyblue;
+  padding: 8px;
+}

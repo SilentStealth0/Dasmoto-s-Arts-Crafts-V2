@@ -106,3 +106,18 @@ nav{
   border: 4px outset skyblue;
   padding: 8px;
 }
+
+.brush_price {
+  text-decoration: underline;
+  text-decoration-color: #00a666;
+}
+
+.frame_price{
+  text-decoration: underline;
+  text-decoration-color: #9c5353;
+}
+
+.paint_price{
+  text-decoration: underline;
+  text-decoration-color: #568497;
+}
